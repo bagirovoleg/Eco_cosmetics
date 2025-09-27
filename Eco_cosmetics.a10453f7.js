@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",()=>{let e=document.getElementById("message-form");e.addEventListener("submit",function(t){t.preventDefault();let n=e.querySelector('input[name="name"]').value.trim(),r=e.querySelector('input[name="email"]').value.trim(),a=e.querySelector('input[name="phone"]').value.trim(),l=e.querySelector('textarea[name="message"]').value.trim();if(!n||!r||!a||!l)return void alert("Please fill in all required fields!");e.reset()})});
+//# sourceMappingURL=Eco_cosmetics.a10453f7.js.map
